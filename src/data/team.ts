@@ -18,16 +18,16 @@ export const teamData: TeamMember[] = [
   // ... 2025 Team
   {
     id: 13,
-    name: "Maya Chen",
+    name: "Aalok Kumar Singh",
     position: "President",
-    photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=256&q=80",
-    bio: "PhD candidate in AI and robotics with a focus on human-robot interaction. Led groundbreaking research in embodied intelligence.",
+    photo: "https://aiclub-oist.web.app/static/media/Aalok.52694f50a194ea847be1.png",
+    bio: "Software engineer graduated from oriental institute of science and technology",
     socials: {
       linkedin: "https://linkedin.com",
       github: "https://github.com",
       email: "maya@aiclub.com"
     },
-    year: "2025",
+    year: "CSE AIML 25'",
     isExecutive: true
   },
   {
