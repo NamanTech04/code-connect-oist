@@ -27,7 +27,7 @@ export const teamData: TeamMember[] = [
       github: "https://github.com",
       email: "maya@aiclub.com"
     },
-    year: "CSE AIML 25'",
+    year: "2025",
     isExecutive: true
   },
   {
