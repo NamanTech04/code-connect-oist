@@ -186,9 +186,9 @@ export const teamData: TeamMember[] = [
   // ... 2023 Team
   {
     id: 1,
-    name: "Ananya Sharma",
+    name: "Aalok Kumar Singh",
     position: "President",
-    photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=256&q=80",
+    photo: "https://aiclub-oist.web.app/static/media/Aalok.52694f50a194ea847be1.png",
     bio: "Computer Science graduate with a passion for AI and machine learning. Led multiple research projects in computer vision.",
     socials: {
       linkedin: "https://linkedin.com",
@@ -200,9 +200,9 @@ export const teamData: TeamMember[] = [
   },
   {
     id: 2,
-    name: "Rahul Patel",
+    name: "Satvik Shrivastava",
     position: "Vice President",
-    photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=256&q=80",
+    photo: "https://aiclub-oist.web.app/static/media/satvik.e432785d0307e03415e7.jpg",
     bio: "AI researcher specializing in natural language processing and generative models. Published in top AI conferences.",
     socials: {
       linkedin: "https://linkedin.com",
@@ -214,9 +214,9 @@ export const teamData: TeamMember[] = [
   },
   {
     id: 3,
-    name: "Priya Singh",
+    name: "Abhishek Chappani",
     position: "Secretary",
-    photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=256&q=80",
+    photo: "https://aiclub-oist.web.app/static/media/chhapani.a7bbd25d0c23cda68263.jpg",
     bio: "Data scientist with expertise in statistical analysis and predictive modeling. Passionate about AI ethics.",
     socials: {
       linkedin: "https://linkedin.com",
@@ -228,9 +228,9 @@ export const teamData: TeamMember[] = [
   },
   {
     id: 4,
-    name: "Vikram Mehta",
-    position: "Technical Lead",
-    photo: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?auto=format&fit=crop&w=256&q=80",
+    name: "Nipun Yadav",
+    position: "General Secretary",
+    photo: "https://aiclub-oist.web.app/static/media/Nipun.4d1b7807fe141f00e531.jpg",
     bio: "Full-stack developer with expertise in AI-powered web applications. Led the development of the club's project management platform.",
     socials: {
       linkedin: "https://linkedin.com",
@@ -242,9 +242,9 @@ export const teamData: TeamMember[] = [
   },
   {
     id: 5,
-    name: "Neha Gupta",
-    position: "Events Coordinator",
-    photo: "https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?auto=format&fit=crop&w=256&q=80",
+    name: "Moulik Sharma",
+    position: "Lead Marketing and PR",
+    photo: "https://aiclub-oist.web.app/static/media/Moulik.e4917331a344cb08fec4.jpg",
     bio: "Marketing specialist with a background in event management. Organized the successful Cypher 30 Coding Contest.",
     socials: {
       linkedin: "https://linkedin.com",
@@ -255,9 +255,9 @@ export const teamData: TeamMember[] = [
   },
   {
     id: 6,
-    name: "Arjun Kumar",
-    position: "Content Creator",
-    photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=256&q=80",
+    name: "Nazim Khan",
+    position: "Lead Marketing and PR",
+    photo: "https://aiclub-oist.web.app/static/media/nazim.db68c56102cfd4153f6a.jpg",
     bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
     socials: {
       linkedin: "https://linkedin.com",
