@@ -266,5 +266,61 @@ export const teamData: TeamMember[] = [
     },
     year: "2023",
     isExecutive: false
+  },
+  {
+    id: 7,
+    name: "Anshika Gupta",
+    position: "Editorial Lead",
+    photo: "https://aiclub-oist.web.app/static/media/Anshika.81a67fd1c8325f4f1207.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2023",
+    isExecutive: false
+  },
+  {
+    id: 8,
+    name: "Nakul Bisen",
+    position: "Technical",
+    photo: "https://aiclub-oist.web.app/static/media/Nakul.88892803c1d17b004482.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2023",
+    isExecutive: false
+  },
+  {
+    id: 9,
+    name: "Riya Chourasia",
+    position: "Event Management Lead",
+    photo: "https://aiclub-oist.web.app/static/media/Riya.ae15eae8b837ad65c605.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2023",
+    isExecutive: false
+  },
+  {
+    id: 10,
+    name: "Angelika Thomas",
+    position: "Editorial",
+    photo: "https://aiclub-oist.web.app/static/media/Angelika.8c0de517c1dac3df941f.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2023",
+    isExecutive: false
   }
 ];
