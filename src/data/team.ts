@@ -101,89 +101,89 @@ export const teamData: TeamMember[] = [
   },
   // ... 2024 Team
   {
-    id: 7,
-    name: "Rohan Verma",
-    position: "President",
-    photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=256&q=80",
-    bio: "Machine learning researcher focusing on reinforcement learning and robotics. Previously interned at major AI research labs.",
-    socials: {
-      linkedin: "https://linkedin.com",
-      github: "https://github.com",
-      email: "rohan@aiclub.com"
-    },
-    year: "2024",
-    isExecutive: true
-  },
-  {
-    id: 8,
-    name: "Ishita Jain",
-    position: "Vice President",
-    photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=256&q=80",
-    bio: "Computer vision specialist with experience in developing AI solutions for healthcare. Passionate about accessibility tech.",
-    socials: {
-      linkedin: "https://linkedin.com",
-      github: "https://github.com",
-      email: "ishita@aiclub.com"
-    },
-    year: "2024",
-    isExecutive: true
-  },
-  {
-    id: 9,
-    name: "Karthik Rao",
-    position: "Secretary",
-    photo: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=256&q=80",
-    bio: "Data engineer with strong background in big data technologies. Streamlined the club's data infrastructure.",
-    socials: {
-      linkedin: "https://linkedin.com",
-      github: "https://github.com",
-      email: "karthik@aiclub.com"
-    },
-    year: "2024",
-    isExecutive: true
-  },
-  {
-    id: 10,
-    name: "Aisha Khan",
-    position: "Technical Lead",
-    photo: "https://images.unsplash.com/photo-1560365163-3e8d64e762ef?auto=format&fit=crop&w=256&q=80",
-    bio: "Backend developer specialized in scalable AI systems. Leads the development of the club's project management platform.",
-    socials: {
-      linkedin: "https://linkedin.com",
-      github: "https://github.com",
-      email: "aisha@aiclub.com"
-    },
-    year: "2024",
-    isExecutive: false
-  },
-  {
-    id: 11,
-    name: "Siddharth Tiwari",
-    position: "Events Coordinator",
-    photo: "https://images.unsplash.com/photo-1557862921-37829c790f19?auto=format&fit=crop&w=256&q=80",
-    bio: "Creative professional with experience in organizing tech events. Responsible for workshop series and hackathons.",
-    socials: {
-      linkedin: "https://linkedin.com",
-      email: "siddharth@aiclub.com"
-    },
-    year: "2024",
-    isExecutive: false
-  },
-  {
-    id: 12,
-    name: "Divya Malhotra",
-    position: "Content Creator",
-    photo: "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&w=256&q=80",
-    bio: "Digital marketer and content strategist. Manages the club's online presence and AI Insights Magazine.",
-    socials: {
-      linkedin: "https://linkedin.com",
-      github: "https://github.com",
-      email: "divya@aiclub.com"
-    },
-    year: "2024",
-    isExecutive: false
-  },
-  // ... 2023 Team
+  //   id: 7,
+  //   name: "Rohan Verma",
+  //   position: "President",
+  //   photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=256&q=80",
+  //   bio: "Machine learning researcher focusing on reinforcement learning and robotics. Previously interned at major AI research labs.",
+  //   socials: {
+  //     linkedin: "https://linkedin.com",
+  //     github: "https://github.com",
+  //     email: "rohan@aiclub.com"
+  //   },
+  //   year: "2024",
+  //   isExecutive: true
+  // },
+  // {
+  //   id: 8,
+  //   name: "Ishita Jain",
+  //   position: "Vice President",
+  //   photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=256&q=80",
+  //   bio: "Computer vision specialist with experience in developing AI solutions for healthcare. Passionate about accessibility tech.",
+  //   socials: {
+  //     linkedin: "https://linkedin.com",
+  //     github: "https://github.com",
+  //     email: "ishita@aiclub.com"
+  //   },
+  //   year: "2024",
+  //   isExecutive: true
+  // },
+  // {
+  //   id: 9,
+  //   name: "Karthik Rao",
+  //   position: "Secretary",
+  //   photo: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=256&q=80",
+  //   bio: "Data engineer with strong background in big data technologies. Streamlined the club's data infrastructure.",
+  //   socials: {
+  //     linkedin: "https://linkedin.com",
+  //     github: "https://github.com",
+  //     email: "karthik@aiclub.com"
+  //   },
+  //   year: "2024",
+  //   isExecutive: true
+  // },
+  // {
+  //   id: 10,
+  //   name: "Aisha Khan",
+  //   position: "Technical Lead",
+  //   photo: "https://images.unsplash.com/photo-1560365163-3e8d64e762ef?auto=format&fit=crop&w=256&q=80",
+  //   bio: "Backend developer specialized in scalable AI systems. Leads the development of the club's project management platform.",
+  //   socials: {
+  //     linkedin: "https://linkedin.com",
+  //     github: "https://github.com",
+  //     email: "aisha@aiclub.com"
+  //   },
+  //   year: "2024",
+  //   isExecutive: false
+  // },
+  // {
+  //   id: 11,
+  //   name: "Siddharth Tiwari",
+  //   position: "Events Coordinator",
+  //   photo: "https://images.unsplash.com/photo-1557862921-37829c790f19?auto=format&fit=crop&w=256&q=80",
+  //   bio: "Creative professional with experience in organizing tech events. Responsible for workshop series and hackathons.",
+  //   socials: {
+  //     linkedin: "https://linkedin.com",
+  //     email: "siddharth@aiclub.com"
+  //   },
+  //   year: "2024",
+  //   isExecutive: false
+  // },
+  // {
+  //   id: 12,
+  //   name: "Divya Malhotra",
+  //   position: "Content Creator",
+  //   photo: "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&w=256&q=80",
+  //   bio: "Digital marketer and content strategist. Manages the club's online presence and AI Insights Magazine.",
+  //   socials: {
+  //     linkedin: "https://linkedin.com",
+  //     github: "https://github.com",
+  //     email: "divya@aiclub.com"
+  //   },
+  //   year: "2024",
+  //   isExecutive: false
+  // },
+  // ... 2024 Team
   {
     id: 1,
     name: "Aalok Kumar Singh",
@@ -195,7 +195,7 @@ export const teamData: TeamMember[] = [
       github: "https://github.com",
       email: "ananya@aiclub.com"
     },
-    year: "2023",
+    year: "2024",
     isExecutive: true
   },
   {
@@ -209,7 +209,7 @@ export const teamData: TeamMember[] = [
       github: "https://github.com",
       email: "rahul@aiclub.com"
     },
-    year: "2023",
+    year: "2024",
     isExecutive: true
   },
   {
@@ -223,7 +223,7 @@ export const teamData: TeamMember[] = [
       github: "https://github.com",
       email: "priya@aiclub.com"
     },
-    year: "2023",
+    year: "2024",
     isExecutive: true
   },
   {
@@ -237,7 +237,7 @@ export const teamData: TeamMember[] = [
       github: "https://github.com",
       email: "vikram@aiclub.com"
     },
-    year: "2023",
+    year: "2024",
     isExecutive: false
   },
   {
@@ -250,7 +250,7 @@ export const teamData: TeamMember[] = [
       linkedin: "https://linkedin.com",
       email: "neha@aiclub.com"
     },
-    year: "2023",
+    year: "2024",
     isExecutive: false
   },
   {
@@ -264,7 +264,7 @@ export const teamData: TeamMember[] = [
       github: "https://github.com",
       email: "arjun@aiclub.com"
     },
-    year: "2023",
+    year: "2024",
     isExecutive: false
   },
   {
@@ -278,7 +278,7 @@ export const teamData: TeamMember[] = [
       github: "https://github.com",
       email: "arjun@aiclub.com"
     },
-    year: "2023",
+    year: "2024",
     isExecutive: false
   },
   {
@@ -292,7 +292,7 @@ export const teamData: TeamMember[] = [
       github: "https://github.com",
       email: "arjun@aiclub.com"
     },
-    year: "2023",
+    year: "2024",
     isExecutive: false
   },
   {
@@ -306,7 +306,7 @@ export const teamData: TeamMember[] = [
       github: "https://github.com",
       email: "arjun@aiclub.com"
     },
-    year: "2023",
+    year: "2024",
     isExecutive: false
   },
   {
@@ -320,7 +320,175 @@ export const teamData: TeamMember[] = [
       github: "https://github.com",
       email: "arjun@aiclub.com"
     },
-    year: "2023",
+    year: "2024",
     isExecutive: false
-  }
+  },
+  {
+    id: 11,
+    name: "Affan Ahmed",
+    position: "Team Member",
+    photo: "https://aiclub-oist.web.app/static/media/Affan.66278c5f431ad8bfab84.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2024",
+    isExecutive: false
+  },
+  {
+    id: 12,
+    name: "Akansha Sinha",
+    position: "Team Member",
+    photo: "https://aiclub-oist.web.app/static/media/Akansha.f50a754416ca7b6f6978.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2024",
+    isExecutive: false
+  },
+  {
+    id: 13,
+    name: "Animesh Tandon",
+    position: "Team Member",
+    photo: "https://aiclub-oist.web.app/static/media/Animesh.64140ef82decc56bd987.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2024",
+    isExecutive: false
+  },
+  {
+    id: 14,
+    name: "Alveera Ali",
+    position: "Team Member",
+    photo: "https://aiclub-oist.web.app/static/media/Alveera.68c5a36241fdeb9e6867.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2024",
+    isExecutive: false
+  },
+  {
+    id: 15,
+    name: "Mayank Patil",
+    position: "Team Member",
+    photo: "https://aiclub-oist.web.app/static/media/Mayank.5cc49dbf1bfb2433a818.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2024",
+    isExecutive: false
+  },
+  {
+    id: 16,
+    name: "Mitanshi Jain",
+    position: "Team Member",
+    photo: "https://aiclub-oist.web.app/static/media/Mitanshi.af8865e69328cfb2f8f6.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2024",
+    isExecutive: false
+  },
+  {
+    id: 17,
+    name: "Khush Paliwal",
+    position: "Team Member",
+    photo: "https://aiclub-oist.web.app/static/media/Khush.ba2de236cce3a06a21e3.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2024",
+    isExecutive: false
+  },
+  {
+    id: 18,
+    name: "Huzaifa Imam",
+    position: "Team Member",
+    photo: "https://aiclub-oist.web.app/static/media/Huzaifa.ec0aa8d81b85522f5181.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2024",
+    isExecutive: false
+  },
+  {
+    id: 19,
+    name: "Taru Shrivastava,
+    position: "Team Member",
+    photo: "https://aiclub-oist.web.app/static/media/Taru.d2286dcfaf500e2d0ad7.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2024",
+    isExecutive: false
+  },
+  {
+    id: 20,
+    name: "Samarth Shrivastava",
+    position: "Team Member",
+    photo: "https://aiclub-oist.web.app/static/media/Shivam.71eee573809e40217964.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2024",
+    isExecutive: false
+  },
+  {
+    id: 21,
+    name: "Zeeshan",
+    position: "Team Member",
+    photo: "https://aiclub-oist.web.app/static/media/Zeeshan.6a789b18fb1f59dce650.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2024",
+    isExecutive: false
+  },
+  {
+    id: 22,
+    name: "Shivam Prakash",
+    position: "Team Member",
+    photo: "https://aiclub-oist.web.app/static/media/Samarth.813dd5a25a9591c2e020.jpg",
+    bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "arjun@aiclub.com"
+    },
+    year: "2024",
+    isExecutive: false
+  },
 ];
