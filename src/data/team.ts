@@ -18,9 +18,9 @@ export const teamData: TeamMember[] = [
   // ... 2025 Team
   {
     id: 13,
-    name: "Aalok Kumar Singh",
+    name: "Mitanshi Jain",
     position: "President",
-    photo: "https://aiclub-oist.web.app/static/media/Aalok.52694f50a194ea847be1.png",
+    photo: "https://ai-club-oist.netlify.app/assets/Mitanshi-NXEbaF7K.jpg",
     bio: "Software engineer graduated from oriental institute of science and technology",
     socials: {
       linkedin: "https://linkedin.com",
@@ -32,9 +32,9 @@ export const teamData: TeamMember[] = [
   },
   {
     id: 14,
-    name: "Zain Ahmed",
+    name: "Zeeshan Lucknowi",
     position: "Vice President",
-    photo: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=256&q=80",
+    photo: "https://ai-club-oist.netlify.app/assets/Zeeshan-DbME457F.jpg",
     bio: "AI ethics researcher specializing in fairness and transparency in machine learning systems. Published author on AI governance.",
     socials: {
       linkedin: "https://linkedin.com",
@@ -46,9 +46,9 @@ export const teamData: TeamMember[] = [
   },
   {
     id: 15,
-    name: "Sophia Kim",
+    name: "Khush Paliwal",
     position: "Secretary",
-    photo: "https://images.unsplash.com/photo-1563620915-8478189e41c9?auto=format&fit=crop&w=256&q=80",
+    photo: "https://ai-club-oist.netlify.app/assets/Khus-CdB9sb98.jpg",
     bio: "Computational linguist with expertise in multilingual NLP. Developed award-winning language models for low-resource languages.",
     socials: {
       linkedin: "https://linkedin.com",
@@ -60,9 +60,9 @@ export const teamData: TeamMember[] = [
   },
   {
     id: 16,
-    name: "Leo Martinez",
+    name: "Deshbandhu Badhauliya",
     position: "Technical Lead",
-    photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=256&q=80",
+    photo: "https://ai-club-oist.netlify.app/assets/Deshbandhu-C-nMu_jt.jpg",
     bio: "Full-stack AI engineer specializing in production ML systems. Previously worked at leading AI research laboratories.",
     socials: {
       linkedin: "https://linkedin.com",
@@ -74,9 +74,9 @@ export const teamData: TeamMember[] = [
   },
   {
     id: 17,
-    name: "Amara Okafor",
-    position: "Events Coordinator",
-    photo: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?auto=format&fit=crop&w=256&q=80",
+    name: "Taru Shrivastava",
+    position: "Editorial Lead",
+    photo: "https://ai-club-oist.netlify.app/assets/Taru-ByTVuLux.jpg",
     bio: "Community building expert with experience in organizing tech conferences. Passionate about creating inclusive AI education opportunities.",
     socials: {
       linkedin: "https://linkedin.com",
@@ -86,10 +86,10 @@ export const teamData: TeamMember[] = [
     isExecutive: false
   },
   {
-    id: 18,
-    name: "Ravi Patel",
-    position: "Content Creator",
-    photo: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=256&q=80",
+    id: 19,
+    name: "Akansha Sinha",
+    position: "Social Media & Design",
+    photo: "https://ai-club-oist.netlify.app/assets/Akansha-Be_Ceg-B.jpg",
     bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
     socials: {
       linkedin: "https://linkedin.com",
@@ -99,8 +99,219 @@ export const teamData: TeamMember[] = [
     year: "2025",
     isExecutive: false
   },
-  // ... 2024 Team
   {
+    id: 20,
+    name: "Utkarsh Pathak",
+    position: "Event & Marketing Lead",
+    photo: "https://ai-club-oist.netlify.app/assets/Utkarsh-Cir6GLDL.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 21,
+    name: "Ishan Gupta",
+    position: "Event & Marketing Lead",
+    photo: "https://ai-club-oist.netlify.app/assets/Ishan-CZkZnSkt.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 22,
+    name: "Ujjwal Dubey",
+    position: "Event & Marketing Lead",
+    photo: "https://ai-club-oist.netlify.app/assets/Ujjwal-BdkHa-a9.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 23,
+    name: "Naman Vyas",
+    position: "Technical Team",
+    photo: "https://ai-club-oist.netlify.app/assets/Naman-BhbmoWZi.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 24,
+    name: "Aman Kumar",
+    position: "Technical Team",
+    photo: "https://ai-club-oist.netlify.app/assets/Aman-CG9YFRvC.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 25,
+    name: "Archana Nair",
+    position: "Technical Team",
+    photo: "https://ai-club-oist.netlify.app/assets/Archana-C-U655ch.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 26,
+    name: "Mahi Paliwal",
+    position: "Editorial Team",
+    photo: "https://ai-club-oist.netlify.app/assets/Mahi-zWLpnM4F.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 27,
+    name: "Sunidhi Patle",
+    position: "Editorial Team",
+    photo: "https://ai-club-oist.netlify.app/assets/Sunidhi-Cgc6psN-.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 28,
+    name: "Anshul Kushwaha",
+    position: "Social Media & Design Team",
+    photo: "https://ai-club-oist.netlify.app/assets/Anshul-DTYNEZJ2.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 29,
+    name: "Vedant Agrawal",
+    position: "Social Media & Design Team",
+    photo: "https://ai-club-oist.netlify.app/assets/Vedant-B-9fQuBK.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 30,
+    name: "Sarthak Dwivedi",
+    position: "Social Media & Design Team",
+    photo: "https://ai-club-oist.netlify.app/assets/Sarthak-COG51B1s.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 31,
+    name: "Muskan Gurjar",
+    position: "Social Media & Design",
+    photo: "https://ai-club-oist.netlify.app/assets/Muskan--O6jjmMJ.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 32,
+    name: "Swati Mishra",
+    position: "Social Media & Design",
+    photo: "https://ai-club-oist.netlify.app/assets/Swati-V4e93ctI.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 33,
+    name: "Mehvish Khan",
+    position: "Social Media & Design",
+    photo: "https://ai-club-oist.netlify.app/assets/Mehvish-7qNZ-2jO.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+  {
+    id: 34,
+    name: "Hardik Rahangdale",
+    position: "Social Media & Design",
+    photo: "https://ai-club-oist.netlify.app/assets/Hardik-CQW7_pF5.jpg",
+    bio: "Digital media specialist and AI educator. Creates accessible content explaining complex AI concepts through various media formats.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "ravi@aiclub.com"
+    },
+    year: "2025",
+    isExecutive: false
+  },
+
+  // ... 2024 Team
+  // {
   //   id: 7,
   //   name: "Rohan Verma",
   //   position: "President",
@@ -437,7 +648,7 @@ export const teamData: TeamMember[] = [
   },
   {
     id: 19,
-    name: "Taru Shrivastava,
+    name: "Taru Shrivastava",
     position: "Team Member",
     photo: "https://aiclub-oist.web.app/static/media/Taru.d2286dcfaf500e2d0ad7.jpg",
     bio: "Digital media enthusiast and content creator. Manages the club's blog and social media channels.",
