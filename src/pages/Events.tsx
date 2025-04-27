@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
 import { Dialog, DialogContent, DialogOverlay } from '@/components/ui/dialog';
@@ -138,6 +137,7 @@ const Events = () => {
                   </div>
                 </div>
               ))}
+
             </div>
 
             {filteredEvents.length === 0 && (
@@ -149,10 +149,9 @@ const Events = () => {
         </div>
       </section>
 
-      {/* Event Modal using Shadcn Dialog */}
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
         <DialogOverlay />
-        <DialogContent className="bg-[#1a1a1a] text-white border border-gray-800 p-0 max-w-2xl w-full rounded-lg overflow-hidden">
+        <DialogContent className="bg-[#1a1a1a] text-white border border-gray-800 p-0 max-w-2xl w-full rounded-lg overflow-hidden" style={{ maxHeight: '85vh' }}>
           {selectedEvent && (
             <>
               <div className="h-56 overflow-hidden">
@@ -168,7 +167,17 @@ const Events = () => {
                   <span className="bg-ai-green text-ai-black px-2 py-1 text-xs font-bold rounded">{selectedEvent.year}</span>
                 </div>
                 <p className="text-gray-400 text-sm mb-4">{selectedEvent.date}</p>
-                <p className="text-gray-300 mb-6">{selectedEvent.longDescription}</p>
+                
+                {/* Long Description Scroll  */}
+                <div 
+                  className="text-gray-300 mb-6 overflow-y-auto" 
+                  style={{ maxHeight: '50vh' }}
+                >
+                  {selectedEvent.longDescription.map((line, index) => (
+                    <p key={index} className="mb-2">{line}</p>
+                  ))}
+                </div>
+
                 <div className="flex justify-end">
                   <button 
                     onClick={closeEventModal}
