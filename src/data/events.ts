@@ -15,7 +15,7 @@ export const eventsData: Event[] = [
   {
     id: 1,
     title: "Cypher 30 Coding Contest",
-    date: "March 15, 2023",
+    date: "April 1, 2025",
     description: "A fast-paced coding competition testing algorithmic skills and problem-solving abilities.",
     image: Images.Cypher30, 
     longDescription: [
@@ -43,10 +43,11 @@ export const eventsData: Event[] = [
       "Gear up for an intense, exciting, and rewarding journey.",
       "Challenge yourself. Code consistently. Rise higher.",
       "",
-      "🔗 Registrations are now open — don't miss out!"
+      "Registrations are closed",
+      "for futher updates contact us"
     ],
     
-    year: "2023",
+    year: "2025",
   },
   
   {
