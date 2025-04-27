@@ -149,7 +149,6 @@ const Events = () => {
         </div>
       </section>
 
-      {/* Event Modal using Shadcn Dialog */}
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
         <DialogOverlay />
         <DialogContent className="bg-[#1a1a1a] text-white border border-gray-800 p-0 max-w-2xl w-full rounded-lg overflow-hidden" style={{ maxHeight: '85vh' }}>
@@ -169,7 +168,7 @@ const Events = () => {
                 </div>
                 <p className="text-gray-400 text-sm mb-4">{selectedEvent.date}</p>
                 
-                {/* Long Description with Scrollable Content */}
+                {/* Long Description Scroll  */}
                 <div 
                   className="text-gray-300 mb-6 overflow-y-auto" 
                   style={{ maxHeight: '50vh' }}

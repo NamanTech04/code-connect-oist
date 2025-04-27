@@ -1,8 +1,7 @@
 import React from 'react';
-import { eventsData } from '@/data/events';  // Import event data
+import { eventsData } from '@/data/events';  
 
 const EventDetails = ({ eventId }: { eventId: number }) => {
-  // Find the event by ID
   const event = eventsData.find((e) => e.id === eventId);
 
   return (
